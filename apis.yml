@@ -1,7 +1,16 @@
 aid: floward
 name: Floward
-description: Floward is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Floward is a leading online flowers and luxury gifting company headquartered
+  in Kuwait and operating across the Middle East and the United Kingdom. Founded
+  in 2017, the company delivers fresh flower arrangements, curated gift boxes,
+  chocolates, cakes, and personalized gifts to more than 40 cities across 9
+  countries, sourcing blooms daily from ethical growers worldwide and offering
+  same-day and scheduled delivery through its web store and mobile apps. Floward
+  is backed by investors including 500 Global. This API Evangelist profile tracks
+  Floward as a company in the network; as of this enrichment pass the company
+  publishes a consumer e-commerce storefront and corporate site but no public
+  developer API, documentation portal, or SDKs were found.
 url: https://raw.githubusercontent.com/api-evangelist/floward/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.floward.co/wp-content/uploads/2024/03/24092629/cropped-PHOTO-2024-03-21-11-35-43-192x192.jpg
 tags:
 - Company
+- Flowers
+- Gifting
+- Ecommerce
+- Retail
+- Delivery
+- Logistics
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://floward.com
+  url: https://floward.co
+- type: Support
+  url: https://floward.co/contact-us/
+- type: Blog
+  url: https://floward.co/press/
+- type: DomainSecurity
+  url: security/floward-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
