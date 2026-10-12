@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/floward/integrations
+- https://n8n.io/integrations/floward/
+- https://composio.dev/toolkits/floward
+- https://monid.ai/tools/floward
+checked:
+- https://composio.dev/toolkits/floward
+- https://monid.ai/tools/floward
+- https://n8n.io/integrations/floward/
+- https://zapier.com/apps/floward/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
